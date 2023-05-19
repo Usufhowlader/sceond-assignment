@@ -1,0 +1,326 @@
+@keyframes salidding {
+    0%{
+        background-color: yellow;
+    }
+   25%{
+    background-color:blue;
+   }
+   50%{
+    background-color:red;
+   }
+   75%{
+    background-color: greenyellow;
+   }
+    100%{
+        background-color:darkorange;
+    }
+}
+header{
+    background-color: rgba(255, 68, 0, 0.466);
+}
+/* <!-- navgeation area --> */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+h2{
+    font-size:40px;
+    font-weight: 800;
+    margin-left: 200px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    margin-right: 200px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 30px;
+}
+/* <!-- hero area --> */
+.hero{
+    text-align: center;
+}
+.hero-tittle{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.hero-sub-tittle{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.hero-dsecripution{
+    color:darkgrey;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 8px;
+    background-color:darkorange;
+    color: white;
+    border: none;
+    margin-bottom: 20px 200px;
+    animation: salidding  2s ease-in-out 0.2s infinite alternate;
+}
+.banner-image{
+    height: 500px;
+    width: 1000px;
+   margin: 40px 100px;
+}
+/* section-1 */
+img{
+    height: 250px;
+    width: 250px;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 200px;
+}
+.team-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.first-section-tittle{
+    margin-left: 50px;
+ }
+ .first-tittle{
+    font-size: 30px;
+    color:darkorange;
+ }
+ .first-sub-tittle{
+     color: #000;
+ }
+ .first-tittle-dsecripution{
+    font-size: 30px;
+    color: darkorange;
+ }
+ .first-tittle-sub-dsecripution{
+    font-size: 15px;
+    color: darkgrey;
+    margin-bottom: 30px;
+ }
+/* section-2 */
+.section-2{
+    display: flex;
+    gap: 100px;
+    margin: 50px 150px;
+}
+.section-2-tittle{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    border-left: 5px solid orange;
+    padding-left: 10px; 
+}
+.section-2-sub-tittle{
+    width: 400px;
+    color: darkgrey;
+}
+.item-1, .item-2,.item-3,.item-4{
+   border-radius: 5px;
+    width: 400px;
+    padding: 5px 10px;
+    color:darkgrey ;
+    background-color:rgba(248, 248, 255, 0.829);
+    margin-top: 20px;
+}
+
+.architect-img{
+    width: 500px;
+    height: 750px;
+}
+
+.btn-2{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color:#ffa500 ;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transform: scale(2);
+    animation: salidding  2s ease-in-out 0.2s infinite alternate; 
+}
+/* section-3 */
+.section-3{
+    margin: 20px 150px;
+}
+.section-3-tittle{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.section-3-sub-tittle{
+    width: 400px;
+    color: darkgrey;}
+.icon-image{
+    height: 30px;
+    width: 30px;
+}
+.items2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 200px;
+    gap: 80px;
+}
+.Awards,.Project,.Clients,.Email{
+    border: 2px solid goldenrod;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 5px;
+}
+/* section-4 */
+   .section-4{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 150px;
+   }
+   .section-tittle{
+    font-size: 25px;
+    font-weight: 400;
+    color:rgba(139, 0, 139, 0.678);
+   }
+   .section-4-sub-tittle{
+    font-size: 15px;
+    color: darkgrey;
+    margin-bottom: 30px;
+   }
+   .architect2-img{
+    width: 600px;
+    height: 600px;
+   }
+/* section-5 */
+.section-5{
+    text-align: center;
+}
+.section-5-tittle{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.section-5-sub-tittle{
+    color: darkgrey;
+}
+.items3{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 50px 100px;
+    gap: 30px;
+    align-items: center;
+}
+.sponsors{
+    width: 100px;
+    height: 100px;
+}
+/* footer */
+.footer{
+    background: linear-gradient(to bottom, #ffcc00 0%, #cc0000 100%);
+    padding: 10px;
+    margin: 50px 150px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+}
+@media screen and (max-width:576px) {
+    .section-1{
+        flex-direction: column-reverse;
+        margin: 20px 20px;
+    }
+    .section-2{
+        flex-direction: column;
+        margin: 0;
+    }
+    .section-2-sub-tittle{
+        width:300px;
+    }
+    .item-1, .item-2,.item-3,.item-4{
+        border-radius: 5px;
+        width:300px;
+     }
+    .architect-img{
+        width: 350px;
+        height: 350px;
+        margin:10px;
+    }
+    .btn-2{
+       margin-left: 100px;
+    }
+    img{
+        height: 150px;
+        width: 150px;
+
+    }
+    .team-item{
+        margin: 20px 20px;
+    }
+    .items2{
+        grid-template-columns: repeat(2,1fr);
+        margin:0;
+        gap: 10px;
+    }
+    .section-3{
+        margin:0;
+    }
+    .Awards,.Project,.Clients,.Email{
+        padding: 20px 5px;
+    }
+    .section-4{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .architect2-img{
+        width: 300px;
+        height: 300px;
+        margin: 10px 10px;
+       }
+       .items3{
+        grid-template-columns: repeat(3,1fr);
+        margin: 10px 10px;
+       align-items: center;
+        gap: 5px;
+       }
+    nav{
+        flex-direction: column;
+    }
+    header{
+        background-color: rgba(34, 139, 34, 0.13);
+       
+    }
+    h2{
+        margin-left: 0;
+    }
+     nav ul{
+        margin: 20px 20px;
+     }
+     nav ul li a{
+        margin-left: 5px;
+     }
+    .banner-image{
+        height: 200px;
+        width: 300px;
+        margin: 50px;
+    }
+    .footer{
+        padding: 5px;
+        margin: 5px 5px;
+        font-size: 15px;
+
+    }
+}
